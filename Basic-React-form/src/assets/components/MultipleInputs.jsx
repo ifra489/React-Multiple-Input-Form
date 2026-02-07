@@ -2,6 +2,7 @@ import React,{useState} from "react";
 
 const Multipleinputs = () => {
     //! State for Each Input Field
+    
     const[name,setName]=useState("");
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
@@ -10,6 +11,7 @@ const Multipleinputs = () => {
     const[acceptedTerms,setAcceptedTerms]=useState(false);
     const[favoritefruits,setFavoriteFruits]=useState("");
     const[comment,setComment]=useState("");
+
     //!Separate Handlers
     const handleNameChange=(e)=>{
         setName(e.target.value);
